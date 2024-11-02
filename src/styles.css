@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light background for contrast */
+}
+
+header {
+    background: #333; /* Dark background for header */
+    color: #fff; /* White text for contrast */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff; /* White links */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    color: #ffa500; /* Change color on hover */
+}
+
+section {
+    padding: 20px;
+    max-width: 800px; /* Constrain section width for better readability */
+    margin: auto; /* Center the section */
+    background: #fff; /* White background for sections */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.project {
+    background: #f4f4f4; /* Light gray background for projects */
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #333; /* Emphasizing project section */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333; /* Dark footer */
+    color: #fff; /* White text for contrast */
+    position: relative; /* Ensures footer is positioned at the bottom */
+    bottom: 0; /* Keeps footer at the bottom */
+    width: 100%; /* Full width footer */
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin: 5px 0; /* Space between contact items */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; /* Stack nav items on small screens */
+        margin: 5px 0; /* Margin for stacked items */
+    }
+
+    section {
+        padding: 10px; /* Reduce padding on small screens */
+    }
+
+    header {
+        padding: 20px; /* Increase padding for header on small screens */
+    }
+}
